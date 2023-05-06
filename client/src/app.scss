@@ -1,0 +1,13 @@
+@import "~taro-ui-vue/dist/style/index.scss"; // 引入组件样式 - 方式二
+// html, body, #app, .taro_page, page { height: 100%; }
+// .btn_hover {
+//   opacity: 0.8;
+// }
+view {
+  box-sizing: border-box;
+}
+
+.at-button {
+  margin: unset;
+  border: none;
+}

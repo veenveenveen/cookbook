@@ -1,0 +1,19 @@
+.home {
+  background-color: orange;
+  height: 100vh;
+  .at-float-layout {
+    .at-float-layout__container {
+      min-height: 950rpx;
+      max-height: 950rpx;
+      background-color: orange;
+      .empty {
+        height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 28rpx;
+        color: #999;
+      }
+    }
+  }
+}
